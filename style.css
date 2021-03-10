@@ -1,0 +1,52 @@
+body{
+  font-family: monospace;
+  display: flex;
+  justify-content: space-around;
+}
+.form-group{
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+form{
+  width: 600px;
+}
+input, textarea{
+  border: 1.5px solid black;
+  padding: 7px;
+  caret-color: blue;
+}
+input:focus, textarea:focus{
+  border: 1.5px solid blue;
+}
+button{
+  border: 1px solid rgb(211,211,211);
+  background-color: rgb(211,211,211);
+  padding: 8px 15px;
+}
+button:hover{
+  border: 1px solid rgb(192,192,192);
+  background-color: rgb(192,192,192);
+  padding: 8px 15px;
+}
+.valider{
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+.valider:hover{
+  background-color: green;
+}
+.message{
+  text-align: center;
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+}
+.success{
+  color: green;
+}
+.erreur{
+  color: red;
+}
