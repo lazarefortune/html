@@ -7,6 +7,7 @@ unset($_SESSION['notifications']);
 
 // Bonjour ceci est une etape de test
 $_SESSION['lazare'] = "bonjour";
+var_dump($_SESSION['lazare']);
 ?>
 
 <!DOCTYPE html>
