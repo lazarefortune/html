@@ -3,6 +3,10 @@ session_start();
 $notifications = $_SESSION['notifications'] ?? null;
 unset($_SESSION['notifications']);
 
+
+// ceci est la branche de fortune code
+$_SESSION['fortuneCode'] = "la branche de fortune Code";
+var_dump($_SESSION['fortuneCode'];
 ?>
 
 <!DOCTYPE html>
